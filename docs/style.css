@@ -194,3 +194,30 @@ body{
 }
 
 
+@media only screen and (max-width: 768px){
+    body{
+        width: 100%;
+    }
+    .side #image{
+        position: absolute;
+        max-width: 200px;
+        top: 250px;
+    }
+    .navbar ul{
+        list-style-type: none;
+        display: inline-block;
+        transform: translateX(150px);
+    }
+    
+    .articles{
+        position: absolute;
+        display: inline-block;
+        left: 400px;
+        max-width: 400px;
+        border: 1px solid black;
+        border-width: 20px;
+        border-radius: 10px;
+        background-color: rgb(141, 141, 141);
+        height: 400px;
+    }
+}
